@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react'
 import Axios from "axios";
 import "../Styles/Footer.css";
 import footer from "../Assets/Footer.png";
-import whatsapp from "../Assets/greenwhats.png";
-import face from "../Assets/greenface.png";
-import twitter from "../Assets/greentwit.png";
-import insta from "../Assets/greeninsta.png";
+// import whatsapp from "../Assets/greenwhats.png";
+// import face from "../Assets/greenface.png";
+// import twitter from "../Assets/greentwit.png";
+// import insta from "../Assets/greeninsta.png";
 import Nav from 'react-bootstrap/Nav';
 
 function Footer() {
@@ -76,10 +76,10 @@ function Footer() {
                             <p>Copyright 2021</p>
                         </div>
                         <div className="col-lg-3 col-md-3 back">
-                            <img src={face} />
+                            {/* <img src={face} />
                             <img src={whatsapp} />
                             <img src={insta} />
-                            <img src={twitter} />
+                            <img src={twitter} /> */}
                         </div>
                     </div>
                     {/* <Header /> */}

@@ -11,6 +11,7 @@ import greenmail from "../Assets/mail.png";
 import Formfill from '../components/Formfill';
 import Slider from '../components/Slider';
 import We from '../components/We';
+import { Link } from "react-router-dom"
 
 const mystyle = {
 
@@ -194,7 +195,9 @@ function Home() {
                   <h5 className="head font-weight-bold">{title.name}</h5>
                   <h5 className=" font-weight-bold text-dark">{title.position}</h5>
                   <a href={title.linkedin} target="_blank"><img className='img-fluid' src={Linked}></img></a>
-                  <img className='img-fluid' src={greenmail}></img>
+                  <a href={title.mail} target="_blank" >
+                    <img className='img-fluid' src={greenmail}></img>
+                  </a>
                 </div>
               )
             })
@@ -221,7 +224,7 @@ function Home() {
         </div>
       </section>
       <section className='mt-3' id='contact'>
-      <Formfill />
+        <Formfill />
       </section>
 
     </>
