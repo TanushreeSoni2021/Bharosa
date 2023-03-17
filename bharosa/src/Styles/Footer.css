@@ -1,0 +1,40 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.contact {
+    box-sizing: border-box;
+    padding: 4%;
+    text-align: center;
+    border-radius: 15px;
+    margin-right: 2%;
+    margin-left: 2%;
+    border: none;
+    background-color: rgb(154, 150, 150, 0.3);
+}
+.contain-align-footer {
+    text-align: left;
+}
+.back {
+    background-color: rgb(154, 150, 150, 0.3);
+    align-items: center;
+    padding-top: 0.5%;
+}
+.back p {
+    padding-left: 8rem;
+}
+.back img {
+    padding-inline-start: 2.5%;
+}
+@media screen and (max-width: 426px) {
+    .contain-align-footer {
+        text-align: center;
+        align-items: center;
+    }
+    .contact {
+        padding: 10%;
+    }
+    .back p {
+        padding-left: 0% !important;
+    }
+}

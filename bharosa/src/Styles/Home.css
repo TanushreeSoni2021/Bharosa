@@ -1,0 +1,372 @@
+.icons {
+    position: absolute;
+    display: inline-block;
+}
+
+.head {
+    color: #598216;
+    font-weight: bold;
+}
+
+.para {
+    color: black;
+    text-align: center;
+    font: normal normal Poppins;
+    word-spacing: 0.3em;
+    display: block;
+    max-width: 1500px;
+    margin: 2% auto 1em;
+    position: relative;
+    border-right: .2em;
+    font-weight: 600;
+    font-size: large;
+}
+
+.paragraph-Align {
+    max-width: 800px;
+    margin: 0 auto 1em;
+    transform: preserve-3d;
+}
+
+.bg-img {
+    background-image: url(../Assets/AboutProduct.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+    color: #FFFFFF;
+
+}
+
+
+.styling {
+    display: grid;
+    text-align: center;
+}
+
+
+.contain-align {
+    display: block;
+    max-width: 1100px;
+}
+
+@media screen and (max-width:940px) {
+    .mar {
+        padding-top: 10%;
+    }
+}
+
+/* //////form */
+
+h1 {
+    font-weight: bold;
+    font-size: 2.5em;
+  }
+  
+  .form-control {
+    background-color: inherit;
+    color: black;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    padding: 0% !important;
+  }
+  
+  .form-control:focus {
+    background-color: inherit;
+    color: black;
+    box-shadow: none;
+    border-color: black;
+  }
+  
+  p a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  p a:hover {
+    color: white;
+  }
+  
+  .lable__box {
+    position: absolute;
+    top: 1.0rem;
+    padding: 0%;
+    font-size: 1rem;
+    cursor: text;
+    opacity: 0.9;
+    font-weight: 500;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+    font-family: var(--font-style)
+  }
+  
+  .input__field:focus~.lable__box,
+  .input__field:not(:placeholder-shown).input__field:not(:focus)~.lable__box {
+    background: #fff;
+    top: -9px;
+  }
+  
+  .input__field {
+    height: 3.4rem;
+    width: 100%;
+  }
+  
+/* socialmedia sticky---------------*/
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    left: 97%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+    display: block;
+    text-align: center;
+    transition: all 0.3s ease;
+    color: white;
+}
+
+.bg-icon {
+    background: #EEF2E7;
+    color: white;
+}
+
+.bg-icon img {
+    width: 55%;
+}
+
+@media screen and (max-width : 570px) {
+    .icon-bar {
+        display: none;
+    }
+}
+
+/* map-------------------------- */
+
+.img-back {
+    background-image: url(../Assets/Map5.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+.Back-img {
+    background-image: url(../Assets/Map5.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 810px;
+    width: 150%;
+}
+
+.Map-design {
+    width: 19%;
+    height: 17%;
+    position: relative;
+    top: 5px;
+    left: 377px;
+}
+
+.Map-design2 {
+    width: 19%;
+    height: 17%;
+    position: relative;
+    top: 135px;
+    left: 603px;
+}
+
+.Map-design3 {
+    width: 19%;
+    height: 17%;
+    position: relative;
+    top: 245px;
+    left: -402px;
+}
+
+.Map-design4 {
+    width: 19%;
+    height: 17%;
+    position: relative;
+    top: 622px;
+    left: 157px;
+}
+
+.Map-design5 {
+    width: 19%;
+    height: 17%;
+    position: relative;
+    top: 645px;
+    left: -752px;
+}
+
+@media screen and (max-width: 1024px) {
+    .Back-img {
+        background-image: url(../Assets/Map5.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 810px;
+        width: 100%;
+    }
+
+    .Map-design {
+        width: 19%;
+        height: 17%;
+        position: relative;
+        top: 22px;
+        left: 328px;
+    }
+
+    .Map-design2 {
+        width: 19%;
+        height: 17%;
+        position: relative;
+        top: 150px;
+        left: 543px;
+    }
+
+    .Map-design3 {
+        width: 19%;
+        height: 17%;
+        position: relative;
+        top: 255px;
+        left: -361px;
+    }
+
+    .Map-design4 {
+        width: 19%;
+        height: 17%;
+        position: relative;
+        top: 600px;
+        left: 157px;
+    }
+
+    .Map-design5 {
+        width: 19%;
+        height: 17%;
+        position: relative;
+        top: 620px;
+        left: -670px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Back-img {
+        background-image: url(../Assets/Map5.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 600px;
+        width: 100%;
+    }
+
+    .Map-design {
+        width: 19%;
+        height: 16%;
+        position: relative;
+        top: 22px;
+        left: 245px;
+
+    }
+
+    .Map-design2 {
+        width: 19%;
+        height: 16%;
+        position: relative;
+        top: 113px;
+        left: 404px;
+    }
+
+    .Map-design3 {
+        width: 19%;
+        height: 16%;
+        position: relative;
+        top: 188px;
+        left: -270px;
+    }
+
+    .Map-design4 {
+        width: 19%;
+        height: 16%;
+        position: relative;
+        top: 444px;
+        left: 112px;
+    }
+
+    .Map-design5 {
+        width: 19%;
+        height: 16%;
+        position: relative;
+        top: 458px;
+        left: -495px;
+    }
+}
+
+@media screen and (min-width:250px) and (max-width:767px) {
+    .Back-img {
+        background-image: none;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 600px;
+        width: 100%;
+        display: none;
+    }
+
+    .Map-design {
+        width: 100%;
+        height: 100%;
+        display: block;
+        top: 0;
+        left: 0;
+        border: 5px solid white;
+        border-radius: 5px;
+    }
+
+    .Map-design2 {
+        width: 100%;
+        height: 100%;
+        display: block;
+        top: 0;
+        left: 0;
+    }
+
+    .Map-design3 {
+        width: 100%;
+        height: 100%;
+        display: block;
+        top: 0;
+        left: 0;
+    }
+
+    .Map-design4 {
+        width: 100%;
+        height: 100%;
+        display: block;
+        top: 0;
+        left: 0;
+    }
+
+    .Map-design5 {
+        width: 100%;
+        height: 100%;
+        display: block;
+        top: 0;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .my-form h2 {
+        text-align: center;
+    }
+
+}

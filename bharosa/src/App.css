@@ -1,0 +1,84 @@
+.button-style {
+  border-radius: 5px;
+  background-color: #598216;
+  border: #598216;
+  color: #fff;
+  text-align: right;
+  padding: 0.5rem;
+}
+
+.button-style:hover {
+  border-radius: 5px;
+  background-color: #fff;
+  border: solid 1px #598216;
+  color: #598216;
+  padding: 0.45rem;
+}
+
+.button-style:visited {
+  border-radius: 5px;
+  background-color: #fff;
+  border: solid 1px #598216;
+  color: #598216 !important;
+}
+
+
+.btn-success {
+  margin: 0% !important;
+  border-radius: 5px;
+   text-align: center;
+  min-width: max-content;
+  padding: 0.5rem;
+  display: none;
+  color: #fff;
+  background-color: #598216;
+  border: #598216 !important;
+}
+.btn-success:hover {
+  color: #fff;
+  background-color: #598216;
+  border-color: #598216;
+}
+.btn-check:checked + .btn-success, .btn-check:active + .btn-success, .btn-success:active, .btn-success.active, .show > .btn-success.dropdown-toggle {
+  color: #fff;
+  background-color: #598216;
+  border-color: #598216;
+}
+.btn-success, .btn-success:focus {
+  color: #fff;
+  background-color: #598216;
+  border-color: #598216;
+  box-shadow: none;
+}
+
+.button-light {
+  border-radius: 5px;
+  background: transparent;
+  border: solid 1px #FFFFFF;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 0.5rem;
+  margin: 1%;
+}
+
+.button-light:hover {
+  color: #FFFFFF !important;
+  background-color: #598216 !important;
+  border: solid 1px #598216
+}
+
+@media screen and (max-width: 500px) {
+  .btn-success {
+    justify-content: center;
+   display: grid;
+    padding: 3%;
+  }
+
+  .button-style {
+    display: none;
+  }
+
+  .button-light {
+    display: none;
+  }
+}
