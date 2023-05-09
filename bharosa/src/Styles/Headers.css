@@ -214,3 +214,13 @@
         color: #FFFFFF;
     }
 }
+@media screen and (max-width:767px) {
+    .play i{
+        font-size:medium;
+    }
+}
+@media screen and (max-width:320px) {
+    .play i{
+        font-size: small;
+    }
+}

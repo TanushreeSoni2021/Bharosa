@@ -47,10 +47,6 @@ function Slider() {
                                                 <FiDownload /> Downloads The App</button>
                                         </Link>
                                       
-                                            <Link to="https://play.google.com/store/apps/details?id=bharosa.mitra.bharosa_mitra_fe_0_1" target="_blank" >
-                                            <button className='show btn-success' type="submit" style={{ backgroundColor: '#598216' }}>
-                                            <FiDownload />App</button>
-                                        </Link>
 
                                        <a href='#contact' ><button className='button-light' variant="light">Contact Us</button></a>
                                     </div>

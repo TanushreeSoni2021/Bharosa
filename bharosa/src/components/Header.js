@@ -46,7 +46,7 @@ function Header() {
                                         <FiDownload /> Downloads The App</button>
                                 </a>
                                 <a href="https://play.google.com/store/apps/details?id=bharosa.mitra.bharosa_mitra_fe_0_1" target="_blank" >
-                                    <button className='btn-success' type="button" style={{ backgroundColor: '#598216' }}>
+                                    <button className='btn-success' type="button" style={{ backgroundColor: '#598216', width:"100%"}}>
                                         <FiDownload />App</button>
 
                                 </a>
